@@ -16,7 +16,7 @@ fn main() {
     println!("{}", guess_string.first_phrase);
     println!("{}", guess_string.second_phrase);
     println!("{}", guess_string.third_phrase);
-    let secret_number = rand::thread_rng().gen_range(1..=101);
+    let secret_number = rand::thread_rng().gen_range(1..=100);
 
     loop {
         let mut guess = String::new();
